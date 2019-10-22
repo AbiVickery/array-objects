@@ -22,17 +22,17 @@ var data = [
     "Numquam"
 ]
 
-// console.log(arr1[1]); // World
-// console.log(arr3[1][1 - 1]); // Hola
+// // console.log(arr1[1]); // World
+// // console.log(arr3[1][1 - 1]); // Hola
 
 for (let i = 0; i < data.length; i++) {
-    const element = data[i];
-    console.log(element);
-
-    if (element == "dolor") {
-        i = data.length
-    }
-}
+     const element = data[i];
+     console.log(element);
+    
+     if (element == "dolor") {
+         i = data.length
+     }
+ }
 
 arr1.forEach(function(element){
     console.log(element);
