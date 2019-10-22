@@ -25,8 +25,8 @@ var data = [
 // console.log(arr1[1]); // World
 // console.log(arr3[1][1 - 1]); // Hola
 
-for (let i = 0; i < arr1.length; i++) {
-    const element = arr1[i];
+for (let i = 0; i < data.length; i++) {
+    const element = data[i];
     console.log(element);
 }
 
