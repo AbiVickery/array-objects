@@ -14,12 +14,12 @@ var data = [
     "Lorem",
     "ipsum",
     "dolor",
-    "sit,",
+    "sit",
     "amet",
     "consectetur",
     "adipisicing",
-    "elit.",
-    "Numquam."
+    "elit",
+    "Numquam"
 ]
 
 // console.log(arr1[1]); // World
@@ -28,6 +28,9 @@ var data = [
 for (let i = 0; i < data.length; i++) {
     const element = data[i];
     console.log(element);
+    if (element == "sit") {
+        i = data.length
+    }
 }
 
 arr1.forEach(function(element){
