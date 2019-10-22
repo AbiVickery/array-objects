@@ -10,6 +10,18 @@ var arr2 = [
     ['Hola','Mundo', '!']
 ]
 
+var data = [
+    "Lorem",
+    "ipsum",
+    "dolor",
+    "sit,",
+    "amet",
+    "consectetur",
+    "adipisicing",
+    "elit.",
+    "Numquam."
+]
+
 // console.log(arr1[1]); // World
 // console.log(arr3[1][1 - 1]); // Hola
 
