@@ -37,3 +37,12 @@ for (let i = 0; i < data.length; i++) {
 arr1.forEach(function(element){
     console.log(element);
 });
+
+// MDN map, reduce, filter
+var obj = new Object();
+var obj1 = {}
+
+var obj2 = {
+    fname: 'Abby',
+    lname: 'Curry'
+}
