@@ -47,5 +47,5 @@ var obj2 = {
     lname: 'Curry'
 }
 
-console.log(obj.fname);
-console.log(obj['fname']);
+console.log(obj2.fname);
+console.log(obj2['fname']);
