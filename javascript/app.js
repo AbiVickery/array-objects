@@ -2,13 +2,14 @@
 Arrays and Objects
 */
 // Arrays pg 70
-var arr0 = new Array('Hello','World', '!'); // array constructor
-var arr1 = ['Hello','World', '!']; // array literal
-var arr2 = [
-    ['Hello','World', '!']
-    ['Nǐ hǎo','shìjiè', '!']
-    ['Hola','Mundo', '!']
-]
+
+// var arr0 = new Array('Hello','World', '!'); // array constructor
+// var arr1 = ['Hello','World', '!']; // array literal
+// var arr2 = [
+//     ['Hello','World', '!']
+//     ['Nǐ hǎo','shìjiè', '!']
+//     ['Hola','Mundo', '!']
+// ]
 
 var data = [
     "Lorem",
@@ -34,9 +35,9 @@ for (let i = 0; i < data.length; i++) {
      }
  }
 
-arr1.forEach(function(element){
-    console.log(element);
-});
+// arr1.forEach(function(element){
+//     console.log(element);
+// });
 
 // MDN map, reduce, filter
 var obj = new Object();
@@ -52,7 +53,7 @@ console.log(obj2['fname']);
 
 var fname = 'fname';
 console.log('dot',obj2.foo); // does not work -> looking for key foo in obj2 -> obj2['foo']
-console.log('bracket',obj2[foo]); // does work -> obj2['fname']
+// console.log('bracket',obj2[foo]); // does work -> obj2['fname']
 
 var obj3 = {
     arr: [1,2,3],
@@ -75,6 +76,11 @@ if (obj3.bool) {
 // var total
 
 // parsing data
+
+// need to loop all the records
+// for each 5 records add to object
+// push into new array
+
 var data = [
     'Sianna','Fantini','sfantini0@jalbum.net','Female','17.187.75.7',
     'Ami','Siggin','asiggin1@auda.org.au','Female','92.136.232.25',
@@ -92,3 +98,5 @@ var data = [
     'Sargent','Hulatt','shulattd@w3.org','Male','99.235.176.11',
     'Aleta','Tenny','atennye@rediff.com','Female','224.48.225.77' 
     ];
+
+    console.log(data[0],data[1],data[2],data[3],data[4]);
