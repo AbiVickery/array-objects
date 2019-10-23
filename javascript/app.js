@@ -101,4 +101,8 @@ var data = [
 
     // console.log(data[0],data[1],data[2],data[3],data[4]);
     console.log(data[Math.floor(Math.random() * Math.floor(data.length))]);
-    document.write(data[Math.floor(Math.random() * Math.floor(data.length))]);
+    // document.write(data[Math.floor(Math.random() * Math.floor(data.length))]);
+
+    // var data with all the names inside
+    // console.log with a math.floor function that goes through the list 1 by 1
+    // every time page is reloaded...
