@@ -64,5 +64,9 @@ var obj3 = {
     num: 42
 };
 
-console.log(obj3.arr[1]);
-console.log(obj3['arr'][1]);
+// console.log(obj3.arr[1]);
+// console.log(obj3['arr'][1]);
+
+if (!obj3.bool) {
+    console.log('Yo!');
+}
