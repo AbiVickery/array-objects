@@ -99,4 +99,6 @@ var data = [
     'Aleta, Tenny, atennye@rediff.com, Female, 224.48.225.77' 
     ];
 
-    console.log(data[0],data[1],data[2],data[3],data[4]);
+    // console.log(data[0],data[1],data[2],data[3],data[4]);
+    console.log(data[Math.floor(Math.random() * Math.floor(data.length))]);
+    document.write(data[Math.floor(Math.random() * Math.floor(data.length))]);
