@@ -50,5 +50,6 @@ var obj2 = {
 console.log(obj2.fname);
 console.log(obj2['fname']);
 
-// var fname = 'fname';
-// console.log(obj2[foo]);
+var fname = 'fname';
+console.log(obj2.foo);
+console.log(obj2[foo]);
