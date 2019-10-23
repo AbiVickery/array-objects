@@ -51,5 +51,18 @@ console.log(obj2.fname);
 console.log(obj2['fname']);
 
 var fname = 'fname';
-console.log('dot',obj2.foo);
-console.log('bracket',obj2[foo]);
+console.log('dot',obj2.foo); // does not work -> looking for key foo in obj2 -> obj2['foo']
+console.log('bracket',obj2[foo]); // does work -> obj2['fname']
+
+var obj3 = {
+    arr: [1,2,3],
+    name: 'Abby Curry',
+    sum: function (num1,num2){
+        return num1 + num2;
+    },
+    bool: true,
+    num: 42
+};
+
+console.log(obj3.arr[1]);
+console.log(obj3['arr'][1]);
