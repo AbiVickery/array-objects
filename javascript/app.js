@@ -67,6 +67,6 @@ var obj3 = {
 // console.log(obj3.arr[1]);
 // console.log(obj3['arr'][1]);
 
-if (!obj3.bool) {
+if (obj3.bool) {
     console.log('Yo!');
 }
