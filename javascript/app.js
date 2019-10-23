@@ -46,3 +46,6 @@ var obj2 = {
     fname: 'Abby',
     lname: 'Curry'
 }
+
+console.log(obj.fname);
+console.log(obj['fname']);
