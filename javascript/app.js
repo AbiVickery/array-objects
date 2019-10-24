@@ -106,3 +106,15 @@ var data = [
     // var data with all the names inside
     // console.log with a math.floor function that goes through the list 1 by 1
     // every time page is reloaded...
+
+
+    var coins = {
+        pennies: 200,
+        nickles: 500,
+        dimes: 300,
+        quarters: 64
+    }
+
+    // Total in Dollars,
+    // Total per currency,
+    // Total rolls per currency, any remainder per currency.
