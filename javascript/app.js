@@ -118,3 +118,4 @@ var data = [
     // Total in Dollars,
     // Total per currency,
     // Total rolls per currency, any remainder per currency.
+    // i dont know how much longer i can keep my eyes open!!
