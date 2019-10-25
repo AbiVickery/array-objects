@@ -104,16 +104,37 @@ var data = [
     // document.write(data[Math.floor(Math.random() * Math.floor(data.length))]);
 
     // var data with all the names inside
-    // console.log with a math.floor function that goes through the list 1 by 1
-    // every time page is reloaded...
+    /* console.log with a math.floor function that goes through the list 1 by 1
+     every time page is reloaded... */
 
 
-    var coins = {
-        pennies: 200,
-        nickles: 500,
-        dimes: 300,
-        quarters: 64
-    }
+    // var coins = {
+    //     pennies: 200,
+    //     nickles: 500,
+    //     dimes: 300,
+    //     quarters: 64
+    // }
+
+    // for (let i = 0; i < coins.length; i++) {
+    //     const element = coins[i];
+    //     console.log(element);
+       
+    //     if (element == "pennies") {
+    //         i = coins.length
+    //     }
+    // }
+
+
+    // psuedo code coin roller 
+    /* 
+        var coins with a list of the different coins and what they have a value of.
+        function for sorting the coins into groups of a certain number
+        these groups will be called a roll
+        the var will be an array of 3 at the least
+        print total in dollars
+        print total per currency (stick to american dollars for now, maybe more diverse currencies in the future)
+        print total rolls per currency and any remainder per currency
+    */
 
     // Total in Dollars,
     // Total per currency,
