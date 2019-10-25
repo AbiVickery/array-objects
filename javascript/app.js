@@ -188,3 +188,6 @@ var challengeData = [
     'penny','nickel','quarter','quarter','quarter','dime','penny','dime','dime','dime','quarter','penny','penny',
     'dime','quarter','dime','penny','quarter','dime','dime','dime'
 ]
+
+console.log(challengeData[Math.floor(Math.random() * Math.floor(challengeData.length))]);
+document.write(challengeData[Math.floor(Math.random() * Math.floor(challengeData.length))]);    
